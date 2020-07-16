@@ -12,3 +12,8 @@ const Tabs = withStyles({
 })(MuiTabs)
 
 export default Tabs
+
+/**
+ * These are raw MUI components that have been styled to match our design spec.
+ * They contain no business logic and can be used anywhere in the application.
+ */

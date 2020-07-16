@@ -17,6 +17,10 @@ function App() {
         <>
             <IQDrawer />
             <StyledContainer>
+                {/*
+                    we should either take advantage of the mui grid or use a
+                    css grid, right now we have a mix across the application
+                */}
                 <Grid container spacing={5}>
                     <IQDemoHeader />
                     <IQButtonsDemo />

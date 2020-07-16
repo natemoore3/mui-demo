@@ -25,3 +25,8 @@ export default function IQIcon(props) {
         </StyledSvgIcon>
     )
 }
+
+/**
+ * We can work with design to provide us with properly sized svg icons.
+ * They can be dropped into this helper component and re-used throughout the app.
+ */

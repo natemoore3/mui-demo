@@ -12,3 +12,8 @@ export default function IQDemoHeader() {
         </Grid>
     )
 }
+
+/**
+ * These components are specific to our application and can contain business logic.
+ * While they may contain business logic they should still be re-usable thorughout the application
+ */

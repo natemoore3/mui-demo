@@ -44,6 +44,10 @@ export const theme = createMuiTheme({
         }
     },
 
+    /**
+     * here we can apply global overrides to components for example
+     * removing the text transofrm on buttons
+     */
     overrides: {
         MuiButton: {
             label: {
